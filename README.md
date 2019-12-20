@@ -1,15 +1,13 @@
-# WonderPy
+# WonderPy.Windows
 
-WonderPy is a Python package providing an interface to the WonderWorkshop robots Dash, Dot, and Cue.  It has fine-grained realtime access to all the robot's commands and sensors.  There is a companion repository with tutorials and examples.
+WonderPy is a Python package providing an interface to the WonderWorkshop robots Dash, Dot, and Cue.  It has fine-grained realtime access to all the robot's commands and sensors.  There is a companion repository with tutorials and examples.  The goal of this fork is to provide a version of this package that works with the Windows 10 environment.
 
 To get the most out of WonderPy, you should already have a beginner-level comfort with python and the command-line.
 
 # Project Status
-[![Build status](https://travis-ci.org/playi/WonderPy.svg?master)](https://travis-ci.org/playi)
+WonderPy is current non-functional.  I will update this if/when I'm successful.  
 
-WonderPy is current at an "Alpha" release. It's ready to be tried out by folks who are willing to live with a few more rough-edges than one would want, and ideally who can provide constructive criticism.  
-
-Please see the ["Issues" in github](https://github.com/playi/WonderPy/issues) for an up-to-date list of known bugs and to-do items.  
+Please see the ["Issues" in github](https://github.com/truxonjm/WonderPy/issues) for an up-to-date list of known bugs and to-do items.  
 
 * Command Categories:
 	* eyering
@@ -32,8 +30,8 @@ Please see the ["Issues" in github](https://github.com/playi/WonderPy/issues) fo
 
 # Setup
 ## Prerequisites
-1. MacOS
-2. Python 2.7
+1. Windows 10
+2. Python 3.5+
 3. Familiarity with python and the command-line
 
 
@@ -52,24 +50,16 @@ Installing pip tends to vary significantly from system to system, so we can't pr
     
   Depending on how you installed pip, you may need to  
   `sudo pip install virtualenv`
-
-3. **XCode Command Line Tools**
-  `xcode-select --install`
-
-  You may need to install XCode, visit the [Apple Developer site](https://developer.apple.com/download/more) and search for "Command Line Tools". Then download and install the appropriate file based on your version of macOS and XCode.
-
-  Some users may need to uninstall/reinstall Python 2.x afterwards, depending on their setup. (Since there are many ways python is installed, we don't provide instructions for that here)
   
-4. **AdaFruit Python BTLE Package**  
-  The AdaFruit BTLE package is not hosted on PyPi, which makes it difficult to automatically install when this package is installed via pip. Additionally, this project requires a fork of that project by WonderWorkshop, which as of this writing has not been merged back into the main project.  
-  `pip install git+git://github.com/playi/Adafruit_Python_BluefruitLE@928669a#egg=Adafruit_BluefruitLE`
-
+3. **Bleak BTLE Package**  
+ `https://pypi.org/project/bleak/` 
+  
 ## Create a new python virtual environment
 1. `virtualenv --python=/usr/bin/python2.7 --no-site-packages venv`
 2. `source venv/bin/activate`
 
 ## Install WonderPy
-`pip install WonderPy`
+`pip install WonderPy-Windows`
 
 # Documentation
 Documentation is still also in Alpha stage.
