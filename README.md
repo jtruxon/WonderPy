@@ -5,7 +5,7 @@ WonderPy is a Python package providing an interface to the WonderWorkshop robots
 To get the most out of WonderPy, you should already have a beginner-level comfort with python and the command-line.
 
 # Project Status
-WonderPy is current non-functional.  I will update this if/when I'm successful.  
+WonderPy is currently **non-functional**.  I will update this if/when I'm successful.  
 
 Please see the ["Issues" in github](https://github.com/truxonjm/WonderPy/issues) for an up-to-date list of known bugs and to-do items.  
 
