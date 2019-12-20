@@ -11,9 +11,8 @@ setuptools.setup(
     description="Windows port of Python API for working with Wonder Workshop robots",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/jtruxon/WonderPy",
+    url="https://github.com/jtruxon/WonderPy.Windows",
     packages=setuptools.find_packages(),
-    package_data={'WonderPy': ['lib/WonderWorkshop/osx/*.dylib']},
     classifiers=(
         "Development Status :: 2 - Pre-Alpha",
         "Environment :: Console",
