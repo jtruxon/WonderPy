@@ -1,8 +1,8 @@
 import unittest
 from mock import Mock
-from WonderPy.core.wwConstants import WWRobotConstants
+from WonderPyWindows.core.wwConstants import WWRobotConstants
 from test.robotTestUtil import RobotTestUtil
-from WonderPy.components.wwCommandAccessory import WWCommandAccessory
+from WonderPyWindows.components.wwCommandAccessory import WWCommandAccessory
 
 _rc = WWRobotConstants.RobotComponent
 

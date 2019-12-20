@@ -1,5 +1,5 @@
-from wwCommandBase import WWCommandBase
-from WonderPy.core.wwConstants import WWRobotConstants
+from .wwCommandBase import WWCommandBase
+from WonderPyWindows.core.wwConstants import WWRobotConstants
 
 _ea  = WWRobotConstants.WWEyeAnimation
 _rc  = WWRobotConstants.RobotComponent

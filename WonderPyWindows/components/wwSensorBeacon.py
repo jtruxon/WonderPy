@@ -1,5 +1,5 @@
-from WonderPy.core.wwConstants import WWRobotConstants
-from wwSensorBase import WWSensorBase
+from WonderPyWindows.core.wwConstants import WWRobotConstants
+from .wwSensorBase import WWSensorBase
 
 _rcv = WWRobotConstants.RobotComponentValues
 _rt  = WWRobotConstants.RobotType

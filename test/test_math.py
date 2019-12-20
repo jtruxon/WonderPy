@@ -1,5 +1,5 @@
 import unittest
-from WonderPy.util import wwMath
+from WonderPyWindows.util import wwMath
 
 
 class MyTestCase(unittest.TestCase):

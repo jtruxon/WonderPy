@@ -1,6 +1,6 @@
-from WonderPy.core.wwConstants import WWRobotConstants
-from wwCommandBase import WWCommandBase, do_not_call_within_connect_or_sensors
-from WonderPy.util import wwMath
+from WonderPyWindows.core.wwConstants import WWRobotConstants
+from .wwCommandBase import WWCommandBase, do_not_call_within_connect_or_sensors
+from WonderPyWindows.util import wwMath
 
 _rc  = WWRobotConstants.RobotComponent
 _rcv = WWRobotConstants.RobotComponentValues

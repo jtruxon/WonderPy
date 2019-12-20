@@ -6,11 +6,11 @@ if sys.version_info > (3, 0):
 else:
     import Queue as queue
 
-from WonderPy.core.wwConstants import WWRobotConstants
-from WonderPy.core.wwCommands import WWCommands
-from WonderPy.components.wwCommandBase import do_not_call_within_connect_or_sensors
-from WonderPy.core.wwSensors import WWSensors
-from WonderPy.util.wwPinger import WWPinger
+from WonderPyWindows.core.wwConstants import WWRobotConstants
+from WonderPyWindows.core.wwCommands import WWCommands
+from WonderPyWindows.components.wwCommandBase import do_not_call_within_connect_or_sensors
+from WonderPyWindows.core.wwSensors import WWSensors
+from WonderPyWindows.util.wwPinger import WWPinger
 
 
 def reverse_lookup(table, value):

@@ -1,6 +1,6 @@
-from WonderPy.core.wwConstants import WWRobotConstants
-from WonderPy.core import wwMain
-from wwComponentBase import WWComponentBase
+from WonderPyWindows.core.wwConstants import WWRobotConstants
+from WonderPyWindows.core import wwMain
+from .wwComponentBase import WWComponentBase
 import time
 
 _rc  = WWRobotConstants.RobotComponent

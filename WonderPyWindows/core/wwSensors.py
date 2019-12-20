@@ -1,15 +1,15 @@
-from WonderPy.core.wwConstants import WWRobotConstants
-from WonderPy.util import wwMath
-from WonderPy.components.wwSensorButton import WWSensorButton
-from WonderPy.components.wwSensorAccelerometer import WWSensorAccelerometer
-from WonderPy.components.wwSensorPose import WWSensorPose
-from WonderPy.components.wwSensorPing import WWSensorPing
-from WonderPy.components.wwSensorMedia import WWSensorMedia
-from WonderPy.components.wwSensorAngle import WWSensorAngle
-from WonderPy.components.wwSensorDistance import WWSensorDistance
-from WonderPy.components.wwSensorBeacon import WWSensorBeacon
-from WonderPy.components.wwSensorWheel import WWSensorWheel
-from WonderPy.components.wwSensorGyroscope import WWSensorGyroscope
+from WonderPyWindows.core.wwConstants import WWRobotConstants
+from WonderPyWindows.util import wwMath
+from WonderPyWindows.components.wwSensorButton import WWSensorButton
+from WonderPyWindows.components.wwSensorAccelerometer import WWSensorAccelerometer
+from WonderPyWindows.components.wwSensorPose import WWSensorPose
+from WonderPyWindows.components.wwSensorPing import WWSensorPing
+from WonderPyWindows.components.wwSensorMedia import WWSensorMedia
+from WonderPyWindows.components.wwSensorAngle import WWSensorAngle
+from WonderPyWindows.components.wwSensorDistance import WWSensorDistance
+from WonderPyWindows.components.wwSensorBeacon import WWSensorBeacon
+from WonderPyWindows.components.wwSensorWheel import WWSensorWheel
+from WonderPyWindows.components.wwSensorGyroscope import WWSensorGyroscope
 
 _rc = WWRobotConstants.RobotComponent
 

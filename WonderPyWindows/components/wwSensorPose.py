@@ -1,8 +1,8 @@
 from datetime import datetime, timedelta
 import time
-from WonderPy.core.wwConstants import WWRobotConstants
-from wwSensorBase import WWSensorBase
-from WonderPy.util import wwMath
+from WonderPyWindows.core.wwConstants import WWRobotConstants
+from .wwSensorBase import WWSensorBase
+from WonderPyWindows.util import wwMath
 
 _rc  = WWRobotConstants.RobotComponent
 _rcv = WWRobotConstants.RobotComponentValues

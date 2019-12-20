@@ -1,12 +1,12 @@
-from WonderPy.core.wwConstants import WWRobotConstants
-from WonderPy.components.wwCommandEyering import WWCommandEyering
-from WonderPy.components.wwCommandPing import WWCommandPing
-from WonderPy.components.wwCommandBody import WWCommandBody
-from WonderPy.components.wwCommandRGB import WWCommandRGB
-from WonderPy.components.wwCommandMonoLED import WWCommandMonoLED
-from WonderPy.components.wwCommandMedia import WWCommandMedia
-from WonderPy.components.wwCommandAccessory import WWCommandAccessory
-from WonderPy.components.wwCommandHead import WWCommandHead
+from WonderPyWindows.core.wwConstants import WWRobotConstants
+from WonderPyWindows.components.wwCommandEyering import WWCommandEyering
+from WonderPyWindows.components.wwCommandPing import WWCommandPing
+from WonderPyWindows.components.wwCommandBody import WWCommandBody
+from WonderPyWindows.components.wwCommandRGB import WWCommandRGB
+from WonderPyWindows.components.wwCommandMonoLED import WWCommandMonoLED
+from WonderPyWindows.components.wwCommandMedia import WWCommandMedia
+from WonderPyWindows.components.wwCommandAccessory import WWCommandAccessory
+from WonderPyWindows.components.wwCommandHead import WWCommandHead
 
 _rc  = WWRobotConstants.RobotComponent
 _rcv = WWRobotConstants.RobotComponentValues

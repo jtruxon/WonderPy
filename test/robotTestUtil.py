@@ -1,5 +1,5 @@
 
-from WonderPy.core.wwRobot import WWRobot
+from WonderPyWindows.core.wwRobot import WWRobot
 
 kManuData_Dot  = [3, 2, 1, 0, 2, 3, 2, 119, 28, 0, 0, 0, 0, 0, 0, 0, 33, 0, 0, 0, 0, 0, 0, 0, 0, 0, ]
 kManuData_Dash = [3, 1, 1, 0, 2, 1, 13, 216, 73, 0, 0, 0, 0, 0, 0, 0, 33, 0, 0, 0, 0, 0, 0, 0, 0, 0, ]

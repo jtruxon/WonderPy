@@ -1,9 +1,9 @@
 import threading
-import WonderPy
+import WonderPyWindows
 
 
 def start(delegate_instance, arguments=None):
-    WonderPy.core.wwBTLEMgr.WWBTLEManager(delegate_instance, arguments).run()
+    WonderPyWindows.core.wwBTLEMgr.WWBTLEManager(delegate_instance, arguments).run()
 
 
 thread_local_data = threading.local()

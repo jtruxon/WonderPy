@@ -2,8 +2,8 @@
 
 import math
 from datetime                  import datetime
-from WonderPy.util             import wwMath
-from WonderPy.core.wwConstants import WWRobotConstants
+from WonderPyWindows.util             import wwMath
+from WonderPyWindows.core.wwConstants import WWRobotConstants
 
 _queue_max = 5
 

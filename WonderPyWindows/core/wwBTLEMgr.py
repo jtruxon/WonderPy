@@ -9,9 +9,9 @@ import time
 import os
 
 try:
-    import Adafruit_BluefruitLE
+    import bleak
 except ImportError:
-    print("Unable to import module: Adafruit_BluefruitLE. You may need to install it manually. See the README.md for WonderPy.")
+    print("Unable to import module: bleak. You may need to install it manually. See the README.md for WonderPyWindows.")
     raise
 
 
@@ -20,10 +20,10 @@ if sys.version_info > (3, 0):
 else:
     import Queue as queue
 
-from wwRobot import WWRobot
-from wwConstants import WWRobotConstants
-from WonderPy.core import wwMain
-from WonderPy.config import WW_ROOT_DIR
+from .wwRobot import WWRobot
+from .wwConstants import WWRobotConstants
+from WonderPyWindows.core import wwMain
+from WonderPyWindows.config import WW_ROOT_DIR
 
 
 class WWException(Exception):
@@ -67,8 +67,10 @@ class WWBTLEManager(object):
         self._sensor_queue = queue.Queue()
 
         # Initialize the BLE system.  MUST be called before other BLE calls!
-        self.ble = Adafruit_BluefruitLE.get_provider()
-        self.ble.initialize()
+        self.ble = None
+        raise NotImplementedError("Must replace AdaFruit with Bleak.")
+        # self.ble = Adafruit_BluefruitLE.get_provider()
+        # self.ble.initialize()
 
     @staticmethod
     def setup_argument_parser(parser):
