@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="WonderPy-Windows",
+    name="WonderPyWindows",
     version="0.0.1",
     author="James Truxon",
     author_email="james@modeic.com",
